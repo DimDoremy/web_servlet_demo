@@ -55,4 +55,14 @@
         <servlet-name>Props</servlet-name>
         <url-pattern>/props</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Submit</servlet-name>
+        <servlet-class>SubmitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Submit</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
 </web-app>

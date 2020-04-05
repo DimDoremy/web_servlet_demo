@@ -15,6 +15,8 @@ public class SubmitServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=utf-8");
         String name = request.getParameter("username");
         String password = request.getParameter("password");
         InputStream inputStream = this.getServletContext().getResourceAsStream("user.properties");

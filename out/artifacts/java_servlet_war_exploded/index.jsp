@@ -16,7 +16,7 @@
 <div class="container">
     <div class="col-md-offset-4 col-lg-offset-4 col-xs-offset-4"
          style="float: none;display: inline-block;vertical-align: middle;">
-        <form role="form" class="form-horizontal" action="/submit">
+        <form role="form" class="form-horizontal" action="${pageContext.request.contextPath}/submit">
             <div class="form-group">
                 <label for="username" class="text-center">用户名：</label>
                 <input type="text" id="username" name="username">

@@ -63,6 +63,6 @@
 
     <servlet-mapping>
         <servlet-name>Submit</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/submit</url-pattern>
     </servlet-mapping>
 </web-app>
